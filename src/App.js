@@ -18,7 +18,7 @@ function App() {
 <Routes>
 <Route path="/login" element={<Login/>} />
 <Route path="/institution-register" element={<InstitutionRegister/>} />
-<Route path="/dashboard" element={<Dashboard/>} />
+<Route path="/payslip-generator" element={<Dashboard/>} />
 <Route path="/form" element={<FormDataPage/>} />
 <Route path="/employee-information" element={<DisplayDataPage/>} />
 <Route path="/user-management" element={<UserManagement/>} />

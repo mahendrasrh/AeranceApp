@@ -52,7 +52,7 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/dashboard"
+            to="/payslip-generator"
             className="px-5 py-2 rounded-full bg-[#0d273b] hover:bg-[#12344b] transition duration-300"
           >
             Payslip Generator
@@ -78,28 +78,22 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden bg-[#0d273b] mt-2 px-6 py-4 rounded-lg space-y-3 text-white">
 
+        
+
           <Link
             onClick={() => setMenuOpen(false)}
-            to="/form"
+           to="/employee-information"
             className="block px-4 py-2 bg-[#12344b] rounded-lg hover:bg-[#0f2f45] transition"
           >
-            Form Data Page
+         Employee Information
           </Link>
 
           <Link
             onClick={() => setMenuOpen(false)}
-            to="/display"
+            to="/payslip-generator"
             className="block px-4 py-2 bg-[#12344b] rounded-lg hover:bg-[#0f2f45] transition"
           >
-            Display Data Page
-          </Link>
-
-          <Link
-            onClick={() => setMenuOpen(false)}
-            to="/user-management"
-            className="block px-4 py-2 bg-[#12344b] rounded-lg hover:bg-[#0f2f45] transition"
-          >
-            User Management
+             Payslip Generator
           </Link>
 
           <div className="flex items-center justify-between mt-4">
